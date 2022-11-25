@@ -1,5 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
+// baseURI = https://crypto-devs-kk060x7ek-1stmuse.vercel.app/api
+
 export default function handler(req, res) {
   const tokenId = req.query.tokenid;
   const name = `Crypto Dev 3${tokenId}`;
